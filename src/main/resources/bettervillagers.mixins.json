@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "fr.nil.bettervillagers.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+
+  ],
+  "client": [
+    "client.ClientPlayNetworkHandlerMixin",
+    "client.VillagerEntityMixin",
+    "render.VillagerEntityRendererMixin"
+  ],
+  "server": [
+    "server.PlayerManagerMixin",
+    "server.VillagerEntityMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
